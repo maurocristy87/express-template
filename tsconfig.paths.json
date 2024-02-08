@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@types": ["application/config/ioc/types"],
+            "@parameters": ["application/config/ioc/parameters"],
+            "@validator/*": ["application/api/validator/*"],
+            "@security/*": ["application/security/*"],
+            "@exception/*": ["domain/exception/*"],
+            "@service/*": ["domain/service/*"],
+            "@entity/*": ["domain/entity/*"],
+            "@model/*": ["domain/model/*"],
+            "@repository/*": ["domain/repository/*"],
+            "@enum/*": ["domain/enum/*"],
+            "@providers": ["infrastructure/inversify/CustomProviders"],
+            "@mongodb/*": ["infrastructure/mongodb/*"]
+        }
+    }
+}
